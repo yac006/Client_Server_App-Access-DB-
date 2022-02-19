@@ -1,0 +1,13 @@
+program Project_Client;
+
+uses
+  Forms,
+  Unit_Client in 'Unit_Client.pas' {Form_Client};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm_Client, Form_Client);
+  Application.Run;
+end.
